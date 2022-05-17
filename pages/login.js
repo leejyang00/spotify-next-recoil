@@ -11,7 +11,7 @@ export async function getServerSideProps() {
 }
 
 function Login({ providers }) {
-  console.log(providers, "providers in login.js");
+  // console.log(providers, "providers in login.js");
   return (
     <div className="flex flex-col items-center bg-black min-h-screen w-full justify-center">
       <img
